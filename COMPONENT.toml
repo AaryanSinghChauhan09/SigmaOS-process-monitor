@@ -1,0 +1,16 @@
+[component]
+name = "SigmaOS-process-monitor"
+tier = 2
+stability = "scaffold"
+language = "rust"
+description = "Process monitor (states, CPU usage, lookup by name/state)"
+upstream = []
+
+[contract]
+provides = ["sigmaprocessmonitor"]
+depends_on = []
+
+[maturity]
+status = "Scaffold"
+test_evidence = "Compiles and passes AAA unit tests"
+next_milestone = "Hardware and runtime integration"
