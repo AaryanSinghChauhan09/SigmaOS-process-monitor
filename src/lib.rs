@@ -7,6 +7,7 @@
 #![warn(missing_docs)]
 
 /// Process monitor module.
+pub mod sigmaprocess;
 pub mod sigmaprocessmonitor;
 
 /// Errors raised by this component.
